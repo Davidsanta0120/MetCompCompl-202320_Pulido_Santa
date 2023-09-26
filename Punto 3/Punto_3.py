@@ -54,9 +54,6 @@ def GetRoots(f,df,x,tolerancia = 10):
             
             if croot not in Roots:
                 Roots = np.append(Roots, croot)
-                
-    Roots.sort()
-    
     return Roots
 def GetAllRootsGLeg(n):
     j=n+((n-1)*np.sqrt(n))
